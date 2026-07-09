@@ -1,0 +1,1984 @@
+{
+  "name": "沪教牛津版四下知识清单",
+  "sourcePdf": "沪教牛津版四下知识清单全(1).pdf",
+  "extractedAt": "2026-07-08T15:24:17.890Z",
+  "count": 247,
+  "items": [
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-daily",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "daily",
+      "chinese": "每日的；日常的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-schedule",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "schedule",
+      "chinese": "日程安排",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-at",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "at",
+      "chinese": "在 ( 某时间或时刻 )",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-oclock",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "o'clock",
+      "chinese": "( 表示整点 ) ...... 点钟",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-half",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "half",
+      "chinese": "( 时间 ) ...... 点半",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-little",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "little",
+      "chinese": "年幼的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-drink",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "drink",
+      "chinese": "喝；饮",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-lesson",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "lesson",
+      "chinese": "课",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-draw",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "draw",
+      "chinese": "画",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-quarter",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "quarter",
+      "chinese": "15 分钟；一刻钟",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-miss",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "Miss",
+      "chinese": "小姐",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-sleepy",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "sleepy",
+      "chinese": "困倦的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-late",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "late",
+      "chinese": "迟到；迟发生",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-word-meeting",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "word",
+      "english": "meeting",
+      "chinese": "会议",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-getup",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "get up",
+      "chinese": "起床",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-havedinner",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "have dinner",
+      "chinese": "吃晚餐",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-busstop",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "bus stop",
+      "chinese": "公交车站",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-havebreakfast",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "have breakfast",
+      "chinese": "吃早餐",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-gotobed",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "go to bed",
+      "chinese": "睡觉",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-ontime",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "on time",
+      "chinese": "准时",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-gotoschool",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "go to school",
+      "chinese": "上学",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-brushmyteeth",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "brush my teeth",
+      "chinese": "刷牙",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-gotowork",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "go to work",
+      "chinese": "去上班",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-havelunch",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "have lunch",
+      "chinese": "吃午餐",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-washmyface",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "wash my face",
+      "chinese": "洗脸",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-workwith",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "work with",
+      "chinese": "和 ... 一起工作；做事",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-gohome",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "go home",
+      "chinese": "回家",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-goodnightkids",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "Good night,kids!",
+      "chinese": "晚安，孩子们！",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 1 What is your daily schedule ?-phrase-comehome",
+      "unit": "Unit 1 What is your daily schedule ?",
+      "type": "phrase",
+      "english": "come home",
+      "chinese": "回家",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-chinese",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "Chinese",
+      "chinese": "（学科）语文",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-maths",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "Maths",
+      "chinese": "（学科）数学",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-english",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "English",
+      "chinese": "（学科）英语",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-pe",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "PE",
+      "chinese": "（学科）体育",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-music",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "Music",
+      "chinese": "（学科）音乐",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-art",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "Art",
+      "chinese": "（学科）美术",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-it",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "IT",
+      "chinese": "（学科）信息技术",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-science",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "Science",
+      "chinese": "（学科）科学",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-student",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "student",
+      "chinese": "学生",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-different",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "different",
+      "chinese": "不同的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-subject",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "subject",
+      "chinese": "科目",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-class",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "class",
+      "chinese": "课；班级",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-pig",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "pig",
+      "chinese": "猪",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-club",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "club",
+      "chinese": "俱乐部；社团",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-timetable",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "timetable",
+      "chinese": "时间表",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-abacus",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "abacus",
+      "chinese": "算盘",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-word-drama",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "word",
+      "english": "drama",
+      "chinese": "戏剧",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-phrase-raisethenationalflag",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "phrase",
+      "english": "raise the national flag",
+      "chinese": "升国旗",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-phrase-workout",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "phrase",
+      "english": "work out",
+      "chinese": "解决；算出",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-phrase-afterschool",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "phrase",
+      "english": "after school",
+      "chinese": "放学后",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-phrase-putonaplay",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "phrase",
+      "english": "put on a play",
+      "chinese": "演出戏剧",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 2 What do we like about school?-phrase-modelplane",
+      "unit": "Unit 2 What do we like about school?",
+      "type": "phrase",
+      "english": "model plane",
+      "chinese": "飞机模型",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-firefighter",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "firefighter",
+      "chinese": "消防员",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-policeofficer",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "police officer",
+      "chinese": "警察",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-farmer",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "farmer",
+      "chinese": "农民；农夫",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-teacher",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "teacher",
+      "chinese": "老师",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-doctor",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "doctor",
+      "chinese": "医生",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-busdriver",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "bus driver",
+      "chinese": "公交车司机",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-fire",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "fire",
+      "chinese": "火",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-soup",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "soup",
+      "chinese": "汤",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-mrs",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "Mrs",
+      "chinese": "夫人；太太",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-job",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "job",
+      "chinese": "工作；职业",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-people",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "people",
+      "chinese": "人；人们",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-know",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "know",
+      "chinese": "知道",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-or",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "or",
+      "chinese": "或；或者",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-hospital",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "hospital",
+      "chinese": "医院",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-nurse",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "nurse",
+      "chinese": "护士",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-sick",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "sick",
+      "chinese": "生病的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-dentist",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "dentist",
+      "chinese": "牙医",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-sweet",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "sweet",
+      "chinese": "甜的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-check",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "check",
+      "chinese": "检查",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-word-ambulance",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "word",
+      "english": "ambulance",
+      "chinese": "救护车",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-putoutfires",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "put out fires",
+      "chinese": "灭火",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-lookafter",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "look after",
+      "chinese": "照顾；照料",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-twiceorthreetimes",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "twice or three times",
+      "chinese": "两次或三次",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-fillholesinteeth",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "fill holes in teeth",
+      "chinese": "补牙",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-pullbadteethout",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "pull bad teeth out",
+      "chinese": "拔蛀牙",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-fireengine",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "fire engine",
+      "chinese": "消防车",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-firestation",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "fire station",
+      "chinese": "消防站",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-keepsafe",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "keep safe",
+      "chinese": "保证安全",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-putin",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "put in",
+      "chinese": "放入；插入",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-talkabout",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "talk about",
+      "chinese": "谈论；议论",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-toomuch",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "too much",
+      "chinese": "太多",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 3 What ’ s great about jobs?-phrase-waitfor",
+      "unit": "Unit 3 What ’ s great about jobs?",
+      "type": "phrase",
+      "english": "wait for",
+      "chinese": "等待",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-triangle",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "triangle",
+      "chinese": "三角铁（打击乐器）",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-violin",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "violin",
+      "chinese": "小提琴",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-piano",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "piano",
+      "chinese": "钢琴",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-guitar",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "guitar",
+      "chinese": "吉他",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-erhu",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "erhu",
+      "chinese": "二胡",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-flute",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "flute",
+      "chinese": "长笛",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-drum",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "drum",
+      "chinese": "鼓",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-pipa",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "pipa",
+      "chinese": "琵琶",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-clever",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "clever",
+      "chinese": "聪明的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-idea",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "idea",
+      "chinese": "想法",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-think",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "think",
+      "chinese": "思考；想到（主意）",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-them",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "them",
+      "chinese": "他们；她们；它们",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-these",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "these",
+      "chinese": "这些",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-woman",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "woman",
+      "chinese": "成年女子；妇女",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-concert",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "concert",
+      "chinese": "音乐会",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-jar",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "jar",
+      "chinese": "广口瓶",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-bucket",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "bucket",
+      "chinese": "桶",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-pot",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "pot",
+      "chinese": "锅",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-hit",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "hit",
+      "chinese": "打；击",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-clap",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "clap",
+      "chinese": "鼓掌",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-musicalinstrument",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "musical instrument",
+      "chinese": "乐器",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-word-beautiful",
+      "unit": "Unit 4 How can we make music",
+      "type": "word",
+      "english": "beautiful",
+      "chinese": "美妙的；漂亮的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-playtheviolin",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "play the violin",
+      "chinese": "拉小提琴",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-playthepiano",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "play the piano",
+      "chinese": "弹钢琴",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-playthedrums",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "play the drums",
+      "chinese": "敲鼓",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-playtheguitar",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "play the guitar",
+      "chinese": "弹吉他",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-playtheerhu",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "play the erhu",
+      "chinese": "拉二胡",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-bymyself",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "by myself",
+      "chinese": "靠我自己",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-makemusic",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "make music",
+      "chinese": "创作音乐",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-joinourschoolconcert",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "join our school concert",
+      "chinese": "加入我们学校的音乐会",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-getagreatidea",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "get a great idea",
+      "chinese": "想到一个好主意",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-claptheirhands",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "clap their hands",
+      "chinese": "拍手",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-workhard",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "work hard",
+      "chinese": "努力工作",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-blowtheflute",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "blow the flute",
+      "chinese": "吹笛子",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 4 How can we make music-phrase-differentmusicalinstruments",
+      "unit": "Unit 4 How can we make music",
+      "type": "phrase",
+      "english": "different musical instruments",
+      "chinese": "不同的乐器",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-papercut",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "paper-cut",
+      "chinese": "剪纸",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-painting",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "painting",
+      "chinese": "绘画；画作",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-circle",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "circle",
+      "chinese": "圆形",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-triangle",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "triangle",
+      "chinese": "三角形",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-square",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "square",
+      "chinese": "正方形；正方形的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-star",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "star",
+      "chinese": "星星；星形物",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-rectangle",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "rectangle",
+      "chinese": "矩形；长方形",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-clock",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "clock",
+      "chinese": "钟",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-shape",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "shape",
+      "chinese": "形状",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-ask",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "ask",
+      "chinese": "问",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-tiger",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "tiger",
+      "chinese": "老虎",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-say",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "say",
+      "chinese": "说",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-side",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "side",
+      "chinese": "边",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-corner",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "corner",
+      "chinese": "角",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-bedtime",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "bedtime",
+      "chinese": "就寝时间",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-suddenly",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "suddenly",
+      "chinese": "突然；忽然",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-dragon",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "dragon",
+      "chinese": "龙",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-peel",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "peel",
+      "chinese": "脱落；剥落",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-word-wallpaper",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "word",
+      "english": "wallpaper",
+      "chinese": "墙纸",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-takeaphoto",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "take a photo",
+      "chinese": "拍照；照相",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-makeapapercut",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "make a paper-cut",
+      "chinese": "制作剪纸",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-inthesky",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "in the sky",
+      "chinese": "在天空中",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-makeart",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "make art",
+      "chinese": "创作艺术",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-lookat",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "look at",
+      "chinese": "看；注视",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-paintapicture",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "paint a picture",
+      "chinese": "画一幅画",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-makeacollage",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "make a collage",
+      "chinese": "制作拼贴画",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-with",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "with",
+      "chinese": "用 ... 制作",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-peeloff",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "peel off",
+      "chinese": "把 ... ... 从物体表面剥离",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-on",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "on",
+      "chinese": "放置在 ...... 表面上",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 5 How do we make art ?-phrase-allaroundus",
+      "unit": "Unit 5 How do we make art ?",
+      "type": "phrase",
+      "english": "all around us",
+      "chinese": "在我们周围",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-day",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "day",
+      "chinese": "天；白昼；白天",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-night",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "night",
+      "chinese": "夜晚；晚上",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-hour",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "hour",
+      "chinese": "小时",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-minute",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "minute",
+      "chinese": "分钟",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-second",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "second",
+      "chinese": "秒",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-month",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "month",
+      "chinese": "月；月份",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-year",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "year",
+      "chinese": "年",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-question",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "question",
+      "chinese": "问题",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-exercise",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "exercise",
+      "chinese": "运动；锻炼",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-measure",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "measure",
+      "chinese": "测量",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-around",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "around",
+      "chinese": "围绕；环绕",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-sundial",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "sundial",
+      "chinese": "日晷",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-shadow",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "shadow",
+      "chinese": "影子",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-word-hourglass",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "word",
+      "english": "hourglass",
+      "chinese": "沙漏",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-getready",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "get ready",
+      "chinese": "准备好",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-atthesametime",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "at the same time",
+      "chinese": "同时",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-haveapeclass",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "have a PE class",
+      "chinese": "上体育课",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-inthepast",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "in the past",
+      "chinese": "在过去",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-gotothepark",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "go to the park",
+      "chinese": "去公园",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-intheday",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "in the day",
+      "chinese": "在白天",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-atnight",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "at night",
+      "chinese": "在晚上",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-doexercise",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "do exercise",
+      "chinese": "做运动；锻炼",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-traveltowork",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "travel to work",
+      "chinese": "去上班",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-tellthetime",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "tell the time",
+      "chinese": "报时",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-falldown",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "fall down",
+      "chinese": "掉落",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-makedinner",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "make dinner",
+      "chinese": "制作晚餐",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-keepingupwithtime",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "keeping up with time",
+      "chinese": "与时俱进",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 6 How do we measure time?-phrase-countdown",
+      "unit": "Unit 6 How do we measure time?",
+      "type": "phrase",
+      "english": "count down",
+      "chinese": "倒计时",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-liquid",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "liquid",
+      "chinese": "液体",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-solid",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "solid",
+      "chinese": "固体",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-gas",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "gas",
+      "chinese": "气体",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-sugar",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "sugar",
+      "chinese": "食糖",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-salt",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "salt",
+      "chinese": "盐；食盐",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-cream",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "cream",
+      "chinese": "奶油",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-melt",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "melt",
+      "chinese": "（使）熔化；融化",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-hungry",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "hungry",
+      "chinese": "感到饿的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-party",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "party",
+      "chinese": "聚会；派对",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-icecream",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "ice cream",
+      "chinese": "冰淇淋",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-door",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "door",
+      "chinese": "门",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-open",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "open",
+      "chinese": "开着的；敞开的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-put",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "put",
+      "chinese": "放",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-steam",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "steam",
+      "chinese": "水蒸气",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-heat",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "heat",
+      "chinese": "加热",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-freezer",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "freezer",
+      "chinese": "冰柜",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-plastic",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "plastic",
+      "chinese": "塑料的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-mix",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "mix",
+      "chinese": "（使）混合",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-mixture",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "mixture",
+      "chinese": "混合物",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-chocolate",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "chocolate",
+      "chinese": "巧克力",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-freeze",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "freeze",
+      "chinese": "结冰；冻住",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-metal",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "metal",
+      "chinese": "金属",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-word-boil",
+      "unit": "Unit 7 How do things change",
+      "type": "word",
+      "english": "boil",
+      "chinese": "（使）沸腾",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-tworry",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "t worry!",
+      "chinese": "别担心！",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-sure",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "Sure!",
+      "chinese": "当然！",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-done",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "Done!",
+      "chinese": "做好了！",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-putin",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "put in",
+      "chinese": "把 ... 放入 ... 中",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-plasticbag",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "plastic bag",
+      "chinese": "塑料袋",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-shorterandshorter",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "shorter and shorter",
+      "chinese": "越来越短",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-bemadeof",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "be made of",
+      "chinese": "由 ... 制成",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-heatsomewater",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "heat some water",
+      "chinese": "烧热一些水",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-makelemontea",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "make lemon tea",
+      "chinese": "制作柠檬茶",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-mixwith",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "mix...with...",
+      "chinese": "把 …… 和 …… 混合",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-changeinto",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "change into",
+      "chinese": "变成",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-addto",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "add...to...",
+      "chinese": "把 …… 加到 …… 里",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-chickensoup",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "chicken soup",
+      "chinese": "鸡汤",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 7 How do things change-phrase-fruitsalad",
+      "unit": "Unit 7 How do things change",
+      "type": "phrase",
+      "english": "fruit salad",
+      "chinese": "水果沙拉",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-polite",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "polite",
+      "chinese": "有礼貌的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-knock",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "knock",
+      "chinese": "敲击",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-behind",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "behind",
+      "chinese": "在 ...... 之后",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-cry",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "cry",
+      "chinese": "哭泣",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-kind",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "kind",
+      "chinese": "友善的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-helpful",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "helpful",
+      "chinese": "愿意帮忙的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-way",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "way",
+      "chinese": "方式；方法",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-ox",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "ox",
+      "chinese": "公牛",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-until",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "until",
+      "chinese": "直到 ...... 为止",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-someone",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "someone",
+      "chinese": "某人",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-invite",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "invite",
+      "chinese": "邀请",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-maybe",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "maybe",
+      "chinese": "（不确定）大概，可能",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-honey",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "honey",
+      "chinese": "蜂蜜",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-joke",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "joke",
+      "chinese": "笑话；玩笑",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-whatever",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "whatever",
+      "chinese": "无论什么",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-another",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "another",
+      "chinese": "另一个",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-act",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "act",
+      "chinese": "做事；行动",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-member",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "member",
+      "chinese": "成员，分子",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-word-boring",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "word",
+      "english": "boring",
+      "chinese": "无聊的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-taketurns",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "take turns",
+      "chinese": "轮流",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-mayicomein",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "May I come in?",
+      "chinese": "我可以进来吗？",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-getalongwith",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "get along with",
+      "chinese": "与 ...... 相处",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-dochores",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "do chores",
+      "chinese": "做家务",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-knockonthedoor",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "knock on the door",
+      "chinese": "敲门",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-lookafter",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "look after",
+      "chinese": "照顾",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-sharesthwithsb",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "share sth. with sb.",
+      "chinese": "和某人分享某物",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-careabout",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "care about",
+      "chinese": "关心",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-inapoliteway",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "in a polite way",
+      "chinese": "以礼貌地方式",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-playgames",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "play games",
+      "chinese": "玩游戏",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-helpeachother",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "help each other",
+      "chinese": "互相帮助",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-differentkindsof",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "different kinds of",
+      "chinese": "不同种类的",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-excuseme",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "Excuse me",
+      "chinese": "打扰一下",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-thankyou",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "thank you",
+      "chinese": "谢谢",
+      "source": "pdf"
+    },
+    {
+      "id": "Unit 8 How do people get along with each other-phrase-hereyouare",
+      "unit": "Unit 8 How do people get along with each other",
+      "type": "phrase",
+      "english": "Here you are.",
+      "chinese": "给你",
+      "source": "pdf"
+    }
+  ]
+}
