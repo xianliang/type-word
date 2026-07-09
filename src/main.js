@@ -97,7 +97,8 @@ function saveState() {
 
 async function autoLoadBundledWordBank() {
   try {
-    const response = await fetch("/wordbank.json", { cache: "no-store" });
+    const wordBankUrl = new URL("wordbank.json", window.location.origin + import.meta.env.BASE_URL);
+    const response = await fetch(wordBankUrl, { cache: "no-store" });
     if (!response.ok) return;
     const payload = await response.json();
     const sourceName = payload.sourcePdf || payload.name || "内置词库";
