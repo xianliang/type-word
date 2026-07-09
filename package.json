@@ -1,0 +1,17 @@
+{
+  "name": "typeword",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "vite": "^7.0.0",
+    "pdfjs-dist": "^4.10.38"
+  },
+  "devDependencies": {}
+}
