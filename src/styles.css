@@ -144,6 +144,210 @@ h1 {
   font-weight: 700;
 }
 
+.import-tools {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #dce4ef;
+  border-radius: 8px;
+  background: #fbfdff;
+}
+
+.import-tools strong,
+.import-tools span {
+  display: block;
+}
+
+.import-tools strong {
+  color: #22324a;
+  font-size: 13px;
+}
+
+.import-tools span {
+  margin-top: 2px;
+  color: #718096;
+  font-size: 12px;
+}
+
+.import-tools button {
+  min-height: 30px;
+  border: 1px solid #dce4ef;
+  border-radius: 6px;
+  background: #fff;
+  color: #24344d;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.import-tools button:hover {
+  border-color: #9eb9df;
+  background: #f6f9ff;
+}
+
+.import-dialog {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+}
+
+.import-dialog-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(23, 32, 51, 0.45);
+}
+
+.import-dialog-panel {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 12px;
+  width: min(720px, 100%);
+  max-height: min(760px, calc(100vh - 36px));
+  padding: 18px;
+  overflow: auto;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 20px 60px rgba(20, 32, 51, 0.24);
+}
+
+.import-dialog-panel header,
+.import-dialog-panel footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.import-dialog-panel h2,
+.import-dialog-panel p {
+  margin: 0;
+}
+
+.import-dialog-panel h2 {
+  color: #172033;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.import-dialog-panel p {
+  margin-top: 2px;
+  color: #718096;
+  font-size: 13px;
+}
+
+.icon-button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #dce4ef;
+  border-radius: 6px;
+  background: #fff;
+  color: #68778e;
+  font-size: 22px;
+  line-height: 1;
+}
+
+#jsonPasteInput {
+  width: 100%;
+  min-height: 230px;
+  padding: 12px;
+  border: 1px solid #cbd7e7;
+  border-radius: 7px;
+  color: #172033;
+  font-family: Consolas, "SFMono-Regular", monospace;
+  font-size: 13px;
+  line-height: 1.5;
+  outline: none;
+  resize: vertical;
+}
+
+#jsonPasteInput:focus {
+  border-color: #2377ff;
+  box-shadow: 0 0 0 2px rgba(35, 119, 255, 0.12);
+}
+
+.import-preview {
+  display: grid;
+  gap: 6px;
+  min-height: 70px;
+  padding: 10px;
+  border-radius: 7px;
+  background: #f5f8fc;
+  color: #68778e;
+  font-size: 13px;
+}
+
+.import-preview strong {
+  color: #22324a;
+}
+
+.import-preview .good {
+  color: #21956b;
+}
+
+.import-preview .bad {
+  color: #cf3e55;
+}
+
+.import-preview ul {
+  display: grid;
+  gap: 4px;
+  max-height: 190px;
+  margin: 4px 0 0;
+  padding: 0;
+  overflow: auto;
+  list-style: none;
+}
+
+.import-preview li {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr auto;
+  gap: 8px;
+  align-items: center;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.import-preview li strong,
+.import-preview li span,
+.import-preview li em {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.import-preview li em {
+  color: #718096;
+  font-size: 12px;
+  font-style: normal;
+}
+
+.import-dialog-panel footer button {
+  min-width: 90px;
+  height: 34px;
+  border: 1px solid #dce4ef;
+  border-radius: 6px;
+  background: #fff;
+  color: #24344d;
+  font-weight: 800;
+}
+
+.import-dialog-panel footer .primary {
+  border-color: #2377f2;
+  background: #2377f2;
+  color: #fff;
+}
+
+.import-dialog-panel footer button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
 .control-group {
   margin-top: 18px;
 }
@@ -634,5 +838,21 @@ h1 {
 
   .key.space {
     width: 210px;
+  }
+
+  .import-dialog-panel header,
+  .import-dialog-panel footer {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .icon-button {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+  }
+
+  .import-preview li {
+    grid-template-columns: 1fr;
   }
 }

@@ -6,6 +6,66 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorker;
 
 const STORE_KEY = "typeword.state.v1";
 
+const WORD_BANK_TEMPLATE = {
+  schemaVersion: 1,
+  name: "我的英语词库",
+  description: "四年级英语 Unit 1-3",
+  source: {
+    type: "pdf",
+    title: "教材或资料名称",
+    grade: "四年级",
+    term: "下册"
+  },
+  items: [
+    {
+      unit: "Unit 1",
+      type: "word",
+      english: "daily",
+      chinese: "每日的；日常的",
+      tags: ["重点单词"]
+    },
+    {
+      unit: "Unit 1",
+      type: "phrase",
+      english: "get up",
+      chinese: "起床",
+      tags: ["常考短语"]
+    }
+  ]
+};
+
+const AI_PROMPT = `请从我上传的 PDF、图片或文本中提取英语练习题库，并生成 TypeWord 可导入的 JSON。
+
+要求：
+1. 只输出合法 JSON，不要 Markdown，不要解释文字。
+2. JSON 使用下面结构：
+{
+  "schemaVersion": 1,
+  "name": "题库名称",
+  "description": "简短说明",
+  "source": {
+    "type": "pdf",
+    "title": "资料名称",
+    "grade": "",
+    "term": ""
+  },
+  "items": []
+}
+3. items 中每一项包含：
+- unit：单元名称，例如 "Unit 1"
+- type：只能是 "word"、"phrase" 或 "sentence"
+- english：英文单词、短语或句子，短语要保留空格
+- chinese：对应中文释义，多个释义用中文分号“；”隔开
+- tags：数组，例如 ["重点单词"]、["常考短语"]
+
+提取规则：
+1. 优先提取重点单词、核心词汇、常考短语、重点句型。
+2. 不要提取页码、标题、说明文字、练习题编号。
+3. 不确定中文释义的内容请跳过，不要乱编。
+4. 英文重复时只保留一次。
+5. 按 Unit 顺序排列。
+6. 最终只返回 JSON。`;
+
 const BASE_WORDS = [
   ["sad", "难过的"],
   ["dad", "爸爸"],
@@ -206,6 +266,17 @@ function render() {
           导入处理好的词库 JSON
         </label>
 
+        <section class="import-tools">
+          <div>
+            <strong>导入自己的题库</strong>
+            <span>把 PDF 发给 AI，按模板生成 JSON 后导入。</span>
+          </div>
+          <button id="copyPrompt" type="button">复制 AI 提示词</button>
+          <button id="downloadTemplate" type="button">下载模板 JSON</button>
+          <button id="pasteJson" type="button">粘贴 JSON 校验</button>
+          <button id="exportWordBank" type="button">导出当前题库</button>
+        </section>
+
         <section class="control-group">
           <span class="control-title">练习范围</span>
           <div class="mode-tabs" role="tablist">
@@ -362,6 +433,10 @@ function wordBankStatusLabel(status) {
 function bindEvents() {
   document.querySelector("#pdfInput")?.addEventListener("change", handlePdfImport);
   document.querySelector("#jsonInput")?.addEventListener("change", handleJsonImport);
+  document.querySelector("#copyPrompt")?.addEventListener("click", copyAiPrompt);
+  document.querySelector("#downloadTemplate")?.addEventListener("click", downloadTemplate);
+  document.querySelector("#pasteJson")?.addEventListener("click", openPasteImport);
+  document.querySelector("#exportWordBank")?.addEventListener("click", exportCurrentWordBank);
   document.querySelectorAll("[data-mode]").forEach((button) => {
     button.addEventListener("click", () => {
       state.activeMode = button.dataset.mode;
@@ -464,20 +539,170 @@ async function handleJsonImport(event) {
   if (!file) return;
   try {
     const payload = JSON.parse(await file.text());
-    const items = Array.isArray(payload) ? payload : payload.items || payload.imported || [];
-    const normalized = normalizeImportedItems(items, "json");
-    if (!normalized.length) throw new Error("JSON 里没有 english/chinese 词条");
-    state.imported = mergeImported(dedupeEntries(normalized));
+    const result = validateWordBankPayload(payload, "json");
+    if (!result.items.length) throw new Error("JSON 里没有可导入的 english/chinese 词条");
+    state.imported = mergeImported(result.items);
     state.activeMode = "lesson";
-    state.lastImportName = file.name;
+    state.lastImportName = payload.name || file.name;
     state.lastImportAt = new Date().toLocaleString("zh-CN");
     saveState();
     render();
+    alert(`导入成功：${result.items.length} 条；跳过 ${result.invalidCount} 条无效数据；去重 ${result.duplicateCount} 条。`);
   } catch (error) {
     alert(`JSON 导入失败：${error.message}`);
   } finally {
     event.target.value = "";
   }
+}
+
+async function copyAiPrompt() {
+  try {
+    await navigator.clipboard.writeText(AI_PROMPT);
+    alert("AI 提示词已复制。把 PDF 发给 AI 后，粘贴这段提示词即可生成题库 JSON。");
+  } catch {
+    window.prompt("复制下面的 AI 提示词：", AI_PROMPT);
+  }
+}
+
+function downloadTemplate() {
+  downloadJson("typeword-template.json", WORD_BANK_TEMPLATE);
+}
+
+function exportCurrentWordBank() {
+  const items = state.imported.length ? state.imported : BASE_WORDS;
+  const payload = {
+    schemaVersion: 1,
+    name: state.lastImportName || "TypeWord 当前题库",
+    exportedAt: new Date().toISOString(),
+    items: items.map(({ unit, type, english, chinese, source }) => ({ unit, type, english, chinese, source }))
+  };
+  downloadJson("typeword-wordbank-export.json", payload);
+}
+
+function openPasteImport() {
+  const dialog = document.createElement("div");
+  dialog.className = "import-dialog";
+  dialog.innerHTML = `
+    <div class="import-dialog-backdrop" data-close-import></div>
+    <section class="import-dialog-panel" role="dialog" aria-modal="true" aria-labelledby="importDialogTitle">
+      <header>
+        <div>
+          <h2 id="importDialogTitle">粘贴 JSON 校验</h2>
+          <p>把 AI 生成的 JSON 粘贴进来，确认无误后导入。</p>
+        </div>
+        <button class="icon-button" data-close-import type="button" aria-label="关闭">×</button>
+      </header>
+      <textarea id="jsonPasteInput" spellcheck="false" placeholder="在这里粘贴 TypeWord 题库 JSON"></textarea>
+      <div id="jsonPastePreview" class="import-preview">等待粘贴 JSON。</div>
+      <footer>
+        <button id="validatePasteJson" type="button">校验</button>
+        <button id="confirmPasteJson" class="primary" type="button" disabled>确认导入</button>
+      </footer>
+    </section>
+  `;
+  document.body.appendChild(dialog);
+
+  let lastResult = null;
+  const textarea = dialog.querySelector("#jsonPasteInput");
+  const preview = dialog.querySelector("#jsonPastePreview");
+  const confirm = dialog.querySelector("#confirmPasteJson");
+  const close = () => dialog.remove();
+  const validate = () => {
+    try {
+      const payload = JSON.parse(textarea.value);
+      lastResult = validateWordBankPayload(payload, "paste");
+      confirm.disabled = lastResult.items.length === 0;
+      preview.innerHTML = importPreviewHtml(lastResult);
+    } catch (error) {
+      lastResult = null;
+      confirm.disabled = true;
+      preview.innerHTML = `<strong class="bad">JSON 格式错误</strong><span>${escapeHtml(error.message)}</span>`;
+    }
+  };
+
+  dialog.querySelectorAll("[data-close-import]").forEach((button) => button.addEventListener("click", close));
+  dialog.querySelector("#validatePasteJson").addEventListener("click", validate);
+  textarea.addEventListener("input", validate);
+  confirm.addEventListener("click", () => {
+    if (!lastResult?.items.length) return;
+    state.imported = mergeImported(lastResult.items);
+    state.activeMode = "lesson";
+    state.currentIndex.lesson = 0;
+    state.lastImportName = lastResult.name || "粘贴导入题库";
+    state.lastImportAt = new Date().toLocaleString("zh-CN");
+    saveState();
+    close();
+    render();
+  });
+  textarea.focus();
+}
+
+function validateWordBankPayload(payload, source) {
+  const rawItems = Array.isArray(payload) ? payload : payload.items || payload.imported || [];
+  if (!Array.isArray(rawItems)) throw new Error("items 必须是数组");
+  const invalidCount = rawItems.filter((item) => !item?.english || !item?.chinese).length;
+  const normalized = normalizeImportedItems(rawItems, source);
+  const seen = new Set();
+  const items = [];
+  let duplicateCount = 0;
+
+  normalized.forEach((item) => {
+    const key = `${item.unit}-${item.type}-${normalizeAnswer(item.english)}`;
+    if (seen.has(key)) {
+      duplicateCount += 1;
+      return;
+    }
+    seen.add(key);
+    items.push(item);
+  });
+
+  const units = new Set(items.map((item) => item.unit));
+  const typeCounts = items.reduce((counts, item) => {
+    counts[item.type] = (counts[item.type] || 0) + 1;
+    return counts;
+  }, {});
+
+  return {
+    name: Array.isArray(payload) ? "" : payload.name || "",
+    items,
+    invalidCount,
+    duplicateCount,
+    unitCount: units.size,
+    typeCounts,
+    sample: items.slice(0, 12)
+  };
+}
+
+function importPreviewHtml(result) {
+  const typeText = [
+    `单词 ${result.typeCounts.word || 0}`,
+    `短语 ${result.typeCounts.phrase || 0}`,
+    `句子 ${result.typeCounts.sentence || 0}`
+  ].join("；");
+  const sampleRows = result.sample.map((item) => `
+    <li>
+      <strong>${escapeHtml(item.english)}</strong>
+      <span>${escapeHtml(item.chinese)}</span>
+      <em>${escapeHtml(item.unit)}</em>
+    </li>
+  `).join("");
+  return `
+    <strong class="good">可导入 ${result.items.length} 条</strong>
+    <span>${result.unitCount} 个单元；${typeText}；跳过 ${result.invalidCount} 条无效数据；去重 ${result.duplicateCount} 条。</span>
+    <ul>${sampleRows}</ul>
+  `;
+}
+
+function downloadJson(filename, payload) {
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
 }
 
 function normalizeImportedItems(items, source) {
